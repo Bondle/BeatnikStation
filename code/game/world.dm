@@ -262,7 +262,6 @@ var/global/list/map_transition_config = MAP_TRANSITION_CONFIG
 
 	if (!host && config && config.hostedby)
 		features += "hosted by <b>[config.hostedby]</b>"
-		features += "<img src=\"https://i.imgur.com/Tbn74rs.png\">" //Banner image
 
 	if (features)
 		s += ": [jointext(features, ", ")]"
